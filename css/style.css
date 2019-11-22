@@ -1,0 +1,36 @@
+
+/*----------------common----------------*/
+*{ margin:0; padding:0; }
+li{list-style-type:none;}
+a{text-decoration:none;}
+.cl{clear:both;}
+body{background:url(../images/bg.jpg); font-family:'Times New Roman'; }
+
+/*----------------con------------------*/
+div{width:1024px;height:auto;margin:0 auto;}
+header{width:1024px;height:50px;background:url(../images/bg.jpg);
+        position: fixed;    top: 0;
+		z-index:999;}
+.nav{
+	width: 800px;
+	height: 50px;
+    float:left;
+}
+.img1{margin-top:16px;}
+nav ul{ padding-left:10px;}
+nav li{ float:left;padding: 0 20px;}
+nav  a{ color:#333; font-size:14px; line-height:50px;text-align:center;}
+nav  a:hover{color:#FF0000;}
+.header_r{float:right;width:100px;height:50px;margin-right:50px;}
+.header_r img{float:right;margin-left:20px;margin-top:16px;}
+section{width:1024px;margin-top:100px;z-index:500;}
+section h1{font-size:55px;width:700px;border-bottom:1px solid #ccc;text-align:center;margin:0 auto;margin-bottom:50px;}
+section h3{text-align:center;}
+section strong{margin:10px 0;margin-top:30px;display:block;}
+section p{line-height:40px;font-size:18px;color:#2e2e2e;text-indent:2em;}
+.list{margin-left:50px;margin-top:50px;}
+.list img{width:300px;height:230px;float:left;margin-right:20px;margin-bottom:20px;}
+.list-1{margin-right:20px;margin-bottom:20px;}
+.list-2{float:right;width:350px;margin-left:20px;}
+
+footer{width:1024px;height:60px;line-height:60px;margin:0 auto;color:#000;text-align:center;border-top:1px solid #ccc;}
